@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="swiper.min.css">
+  <link rel="stylesheet" href="giat.css">
+  
+
+
+</head>
+<body>
+  <div class="sie">
+  <h1>SIE GIAT</h1>
+  </div>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+          <div class="imgBx">
+          <img src="/images/yuli.png">
+          </div>
+          <div class="details">
+            <h3> Citra Yuli R<br><span>KOOR Sie GIAT</span><br></h3>
+        </div>
+    </div>
+    <div class="swiper-slide">
+            <div class="imgBx">
+            <img src="/images/tiara.jpg">
+            </div>
+            <div class="details">
+              <h3> Tiara Sekarjati W.M<br><span>Anggota Sie GIAT</span></h3>
+          </div>
+      </div>
+      <div class="swiper-slide">
+            <div class="imgBx">
+            <img src="./images/roma.jpg">
+            </div>
+            <div class="details">
+              <h3> Romadhon Aji Satrya<br><span>Anggota Sie GIAT</span></h3>
+          </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="imgBx">
+        <img src="./images/jendra.jpg">
+        </div>
+        <div class="details">
+          <h3> Rajedra Sasikirono<br><span>Anggota Sie GIAT</span></h3>
+      </div>
+  </div>
+  <div class="swiper-slide">
+    <div class="imgBx">
+    <img src="./images/Generic.jpg">
+    </div>
+    <div class="details">
+      <h3> Eni Setyawati<br><span>Anggota Sie GIAT</span></h3>
+  </div>
+</div>
+      
+<div class="">
+</div>
+</div> 
+<!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 5,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+    <a href="index.html">back</a>
+  </div>
+</body>
+</html>
